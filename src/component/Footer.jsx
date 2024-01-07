@@ -19,9 +19,9 @@ function Footer(){
                 <Row>
                     <Col>
                     <Navbar className="justify-content-center p-0">
-                    <Nav as="ul">
+                    <Nav as="ul" className="footer-nav">
                         <Nav.Item as="li">
-                        <NavLink className="nav-link  text-white" to="/">
+                        <NavLink className="nav-link text-white" to="/">
                             Home 
                         </NavLink>
                         </Nav.Item >
