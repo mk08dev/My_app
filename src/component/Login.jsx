@@ -27,7 +27,7 @@ function Login(){
     return(
         <div className="mt-5 mb-5">
             <Row>
-            <Col md={{ span: 6, offset: 3 }}>
+            <Col md={{ span: 4, offset: 4 }}>
             <div className="p-5 border border-4 mb-5">
             <h3>Login</h3>
             <form style={forForm} className="mt-4 mb-3" method="POST" action="">
@@ -43,7 +43,7 @@ function Login(){
             </div>
             </Col>
             </Row>
-            <Row><Col style={{marginBottom:"50px"}}></Col></Row>
+            <Row><Col style={{marginBottom:"30px"}}></Col></Row>
         </div>
     )
 }

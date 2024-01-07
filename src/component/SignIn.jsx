@@ -28,7 +28,7 @@ function SignIn(){
     return(
         <div className="mt-5 mb-5">
             <Row>
-            <Col md={{ span: 6, offset: 3 }}>
+            <Col md={{ span: 4, offset: 4 }}>
             <div className="p-5 border border-4">
             <h3>Register Now</h3>
             <form style={forForm} className="mt-4 mb-3" method="POST" action="">
