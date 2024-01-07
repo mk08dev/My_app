@@ -1,4 +1,5 @@
 import React from "react";
+import logo from ".././logo.svg";
 import { Navbar,Nav,Container,NavbarCollapse } from "react-bootstrap";
 import { FaShoppingCart,FaUser } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
@@ -8,7 +9,8 @@ function Header(){
         <header>
         <Navbar bg="light" expand="lg" collapseOnSelect>
             <Container>
-                <Navbar.Brand href="/">MyCreation</Navbar.Brand>
+                <Navbar.Brand href="/"><img src={logo}
+                        width="50" height="50" alt="logo" />MyCreation</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <NavbarCollapse id="basic-navbar-nav">
                     <Nav className="ms-auto"  as="ul">
