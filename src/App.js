@@ -15,7 +15,7 @@ import Contact from './component/Contact';
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter> 
       <Header /> 
       <Container>
       <Routes>

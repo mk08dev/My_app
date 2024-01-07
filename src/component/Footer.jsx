@@ -10,40 +10,38 @@ function Footer(){
             <Container>
                 <Row>
                     <Col>
-                    <Navbar className="justify-content-center">
-                    <Navbar.Brand  to="/">
+                    <Navbar className="justify-content-center mt-2">
                         <img src={logo}
-                        width="40" height="40" alt="logo" />
-                    </Navbar.Brand>
+                        width="50" height="50" alt="logo" />
                     </Navbar>
                     </Col>
                 </Row>
                 <Row>
                     <Col>
-                    <Navbar className="justify-content-center">
+                    <Navbar className="justify-content-center p-0">
                     <Nav as="ul">
                         <Nav.Item as="li">
-                        <NavLink className="nav-link" to="/">
+                        <NavLink className="nav-link  text-white" to="/">
                             Home 
                         </NavLink>
                         </Nav.Item >
                         <Nav.Item as="li">
-                        <NavLink className="nav-link" to="/about">
+                        <NavLink className="nav-link text-white" to="/about">
                             About Us
                         </NavLink>
                         </Nav.Item >
                         <Nav.Item as="li">
-                        <NavLink className="nav-link" to="/contact">
+                        <NavLink className="nav-link text-white" to="/contact">
                             Contact Us
                         </NavLink>
                         </Nav.Item >
                         <Nav.Item as="li">
-                        <NavLink className="nav-link" to="/cart">
+                        <NavLink className="nav-link text-white" to="/cart">
                             Cart
                         </NavLink>
                         </Nav.Item >
                         <Nav.Item as="li">
-                        <NavLink className="nav-link" to="/login">
+                        <NavLink className="nav-link text-white" to="/login">
                             Login
                         </NavLink>
                         </Nav.Item >
